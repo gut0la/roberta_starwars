@@ -1,0 +1,2 @@
+Oi, este é um exemplo de arquivo criado pelo Java
+Estou aprendendo java!!
