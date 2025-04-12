@@ -15,41 +15,6 @@ A Agenda da Millennium Falcon é um sistema de gerenciamento de contatos que per
 
 > Cada funcionalidade representa um reparo na nave, culminando em uma missão bem-sucedida para a Rebelião!
 
----
-
-## 📁 Estrutura do Projeto
-
-aulas_AnaliseProjeto/
-├── .idea/                          # Configurações do IntelliJ
-├── build/                          # Diretório gerado pelo Maven
-├── nbproject/                      # Configurações do NetBeans (se aplicável)
-├── out/                            # Diretório de saída (compilação)
-├── src/                            # Código-fonte principal
-│   ├── main/                       # Código principal
-│   │   ├── java/                   # Código Java
-│   │   │   └── br/                 # Pacote base
-│   │   │       └── com/            # Pacote base
-│   │   │           └── roberta/    # Pacote principal
-│   │   │               ├── AgendaMillenniumFalcon.java  # Classe principal
-│   │   │               ├── arquivos/                    # Pacote para manipulação de arquivos
-│   │   │               │   └── GerenciadorArquivos.java # Classe de gerenciamento de arquivos
-│   │   │               ├── editor/                      # Pacote para edição (não usado diretamente)
-│   │   │               ├── excecao/                     # Pacote para exceções
-│   │   │               ├── expressaoregular/            # Pacote para expressões regulares
-│   │   │               ├── heranca/                     # Pacote para herança
-│   │   │               ├── leitor/                      # Pacote para leitura
-│   │   │               ├── logging/                     # Pacote para logging
-│   │   │               ├── model/                       # Pacote para modelos
-│   │   │               │   └── Contato.java             # Classe de modelo Contato
-│   │   │               └── strings/                     # Pacote para manipulação de strings
-│   │   └── resources/              # Recursos (vazio)
-│   └── test/                       # Testes (vazio)
-├── aulas_AnaliseProjeto.iml        # Arquivo de módulo do IntelliJ
-├── build.xml                       # Arquivo de build do Ant (se aplicável)
-├── contatos.txt                    # Arquivo de contatos gerado
-├── exemplo.txt                     # Arquivo de exemplo
-├── manifest.mf                     # Manifesto (gerado pelo Maven)
-
 
 ## Pré-requisitos
 
