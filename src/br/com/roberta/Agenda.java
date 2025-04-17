@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class AgendaMillenniumFalcon {
+public class Agenda {
     private static GerenciadorArquivos gerenciador;
     private static List<Contato> contatos = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
