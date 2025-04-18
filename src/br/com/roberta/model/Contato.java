@@ -1,6 +1,6 @@
 package br.com.roberta.model;
 
-public class Contato implements Comparable<Contato> {
+public class Contato implements Comparable<Contato> { // compara para ordernar a lista
     private String nome;
     private String telefone;
     private String email;
@@ -20,11 +20,13 @@ public class Contato implements Comparable<Contato> {
     public void setEmail(String email) { this.email = email; }
 
     @Override
+    // formata a exibição do contato
     public String toString() {
         return String.format("%-20s %-15s %-30s", nome, telefone, email);
     }
 
     @Override
+    // compara os contatos para ordenação
     public int compareTo(Contato outro) {
         return this.nome.compareToIgnoreCase(outro.nome);
     }

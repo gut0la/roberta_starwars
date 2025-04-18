@@ -50,7 +50,35 @@ public class Agenda {
     }
 
     private static void exibirMenu() {
-        System.out.println("\n=== Agenda da Millennium Falcon ===");
+        System.out.println("\n=== Agenda Estrela Divina ===\n");
+
+        System.out.println("             ___");
+        System.out.println("           _/___\\_");
+        System.out.println("          /       \\");
+        System.out.println("         |  () ()  |");
+        System.out.println("        /|    ^    |\\");
+        System.out.println("       /_|   ===   |_\\" );
+        System.out.println("         |_________|");
+        System.out.println("      __/ /_|_|_|_\\ \\__");
+        System.out.println("     /__/         \\__\\       .-.");
+        System.out.println("                            |_:_|\n");
+
+        System.out.println("  * Zooooom *          ___         ___");
+        System.out.println("      >===>           [___]-------[___]   <-- TIE Fighters");
+        System.out.println("      >>===>          |###|       |###|");
+        System.out.println("     >>>===>           UUU         UUU\n");
+
+        System.out.println("                    _______");
+        System.out.println("                 .-'       `-.");
+        System.out.println("                /             \\");
+        System.out.println("               |   O     O    |    <-- Estrela da Morte (técnica de destruição de agendas)");
+        System.out.println("               |      ^      |");
+        System.out.println("               \\   '---'    /");
+        System.out.println("                `-._____.-'");
+
+        System.out.println("\n        R2-D2: 'Beep Boop! Organize seus contatos você deve!'");
+        System.out.println("        Yoda:  'Hmm... salvos eles estarão, se backup fizer.'\n");
+
         System.out.println("1. Inserir Contato");
         System.out.println("2. Listar Contatos");
         System.out.println("3. Editar Contato");
@@ -61,8 +89,10 @@ public class Agenda {
         System.out.println("8. Mudar Arquivo");
         System.out.println("9. Exportar Backup");
         System.out.println("10. Sair");
+
         System.out.print("Escolha uma opção: ");
     }
+
 
     private static void inserirContato() throws IOException {
         System.out.print("Nome: ");
